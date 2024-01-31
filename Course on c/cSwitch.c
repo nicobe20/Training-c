@@ -4,7 +4,7 @@
 
 
 int main() {
-  int day = 4;
+  int day = 8; //this prints the default option.
   
   switch (day) {
     case 1:
@@ -28,6 +28,9 @@ int main() {
     case 7:
       printf("Sunday");
       break;
+    default:
+      printf("This is the default option");   // default case runs if no other case is true.
+
   }
     
   return 0;
