@@ -9,11 +9,15 @@ int main(){
     int len = sizeof(Array1)/sizeof(Array1[0]);
     printf("Length of array: %d \n",len);
     for(int i; i < len;i++){
-        printf("Current number on current pos: %d, %d\n",Array1[i],i);
+        
             if(i == 1){
-                Array1[6] = 100;
+                Array1[i]=100;
+                //printf("Updated value is: %d, on current pos: %d  \n",Array1[i],i);
 
             }
+
+            printf("Current number: %d on current pos %d \n",Array1[i],i);
+
         
     }
 
