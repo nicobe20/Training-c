@@ -51,7 +51,7 @@ void ArrayFun(){   //i believe this has to have a parameter in order to run the 
 int main(){
     //were gonna call the function that we make here :)
     myFunction(); 
-    printf("\n");
+    printf("\n"); //you can use prints to have a skip line in between the output of this functions! dont know if its a valid method dough.
     mySecondFun();
     printf("\n");
 
